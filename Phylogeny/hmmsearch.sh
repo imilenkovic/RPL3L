@@ -106,11 +106,9 @@ hmmalign Ribosomal_L3.hmm uniprot.list.named.fasta > 29072019_align
 # Convert the stockholm format to fasta format 
 http://sequenceconversion.bugaco.com/converter/biology/sequences/stockholm_to_fasta.php
 
-# Copy the fasta aligned file to cluster
-scp 29072019_align.fasta imilenkovic@ant-login.linux.crg.es:/users/enovoa/imilenkovic/
 
 # Build the tree with iqtree 
-vim rpl3l.sh
+
 iqtree -s 29072019_align.fasta -st AA -m TEST -bb 5000 -alrt 5000 -nt 8 -minsup 0.5
 
 # Submit the job

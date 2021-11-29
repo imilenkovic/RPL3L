@@ -1,6 +1,6 @@
 library(ComplexHeatmap)
 library(circlize)
-test <- read.csv("C:\\Users\\imilenkovic\\Desktop\\PhD\\Projects\\Embryo\\RNA-Seq datasets\\embryo_ribosomal_proteins_median_for_heatmap_removed_rt_rrp.csv",row.names = 1)
+test <- read.csv("embryo_ribosomal_proteins_median.csv",row.names = 1)
 input <- as.matrix(test)
 
 annotation<- read.delim("annotation.txt")

@@ -1,8 +1,5 @@
-source ~/.bashrc
-conda activate r4-base
-R
 library("devtools")
-#install_github(repo = "lcalviell/Ribo-seQC")
+install_github(repo = "lcalviell/Ribo-seQC")
 library("RiboseQC")
 
 suppressPackageStartupMessages(library("RiboseQC"))

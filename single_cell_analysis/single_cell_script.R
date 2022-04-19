@@ -1,3 +1,6 @@
+### Files used for analysis are taken from the paper "Ren Z, Yu P, Li D, Li Z et al. Single-Cell Reconstruction of Progression Trajectory Reveals Intervention Principles in Pathological Cardiac Hypertrophy. Circulation 2020 May 26;141(21):1704-1719. PMID: 32098504
+### csv files donwloaded from GEO, accession number: GSE120064
+
 require("devtools")
 library("stringr")
 
